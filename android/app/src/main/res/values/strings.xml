@@ -1,0 +1,328 @@
+<resources>
+    <string name="app_name">MinLish</string>
+
+    <string name="bottom_nav_home">Trang chủ</string>
+    <string name="bottom_nav_vocabulary">Từ vựng</string>
+    <string name="bottom_nav_grammar">Ngữ pháp</string>
+    <string name="bottom_nav_me">Tôi</string>
+
+    <string name="me_default_user">Người dùng</string>
+    <string name="me_section_account">Tài khoản</string>
+    <string name="me_edit_profile_title">Chỉnh sửa hồ sơ</string>
+    <string name="me_edit_profile_subtitle">Tên, mục tiêu, trình độ</string>
+
+    <string name="me_section_settings">Cài đặt</string>
+    <string name="me_notifications_title">Thông báo</string>
+    <string name="me_notifications_subtitle">Nhắc học hàng ngày</string>
+    <string name="me_language_title">Ngôn ngữ</string>
+    <string name="me_language_subtitle">Tiếng Việt</string>
+    <string name="me_about_title">Về ứng dụng</string>
+    <string name="me_about_subtitle">MinLish v1.0.0</string>
+
+    <string name="me_section_other">Khác</string>
+    <string name="me_logout">Đăng xuất</string>
+
+    <string name="language_settings_title">Ngôn ngữ</string>
+    <string name="language_settings_subtitle">Chọn ngôn ngữ cho toàn bộ ứng dụng</string>
+    <string name="language_option_vi">Tiếng Việt</string>
+    <string name="language_option_en">English</string>
+    <string name="common_back">Quay lại</string>
+    <string name="common_back_arrow">← Quay lại</string>
+    <string name="common_loading">Đang tải dữ liệu…</string>
+    <string name="common_error_prefix">Lỗi: </string>
+
+    <string name="notification_settings_title">Thông báo</string>
+    <string name="notification_settings_login_required">Vui lòng đăng nhập để quản lý thông báo</string>
+    <string name="notification_settings_section_reminders">Nhắc nhở</string>
+    <string name="notification_settings_daily_reminder">Nhắc học hàng ngày</string>
+    <string name="notification_settings_daily_time">Giờ học (HH:mm)</string>
+    <string name="notification_settings_review_reminder">Nhắc ôn tập</string>
+    <string name="notification_settings_streak_reminder">Nhắc duy trì chuỗi</string>
+    <string name="notification_settings_daily_message">Nội dung nhắc hàng ngày</string>
+    <string name="notification_settings_review_message">Nội dung nhắc ôn tập</string>
+    <string name="notification_settings_streak_message">Nội dung nhắc chuỗi</string>
+    <string name="notification_settings_section_in_app">Thông báo trong ứng dụng</string>
+    <string name="notification_settings_enable_in_app">Bật thông báo trong ứng dụng</string>
+    <string name="notification_settings_in_app_title">Tiêu đề thông báo</string>
+    <string name="notification_settings_in_app_message">Nội dung thông báo</string>
+    <string name="notification_settings_send_test_in_app">Gửi thông báo thử</string>
+    <string name="notification_settings_section_email">Email</string>
+    <string name="notification_settings_enable_email">Bật email</string>
+    <string name="notification_settings_email_subject">Tiêu đề email</string>
+    <string name="notification_settings_email_message">Nội dung email</string>
+    <string name="notification_settings_saving">Đang lưu…</string>
+    <string name="notification_settings_save">Lưu cài đặt</string>
+    <string name="notification_settings_recent_in_app">Thông báo gần đây</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Xin chào!</string>
+    <string name="home_default_learner">Người học</string>
+    <string name="home_stat_streak">Streak</string>
+    <string name="home_stat_accuracy">Accuracy</string>
+    <string name="home_stat_learned">Đã học</string>
+    <string name="home_stat_streak_days">%1$d Ngày</string>
+    <string name="home_stat_learned_words">%1$d từ</string>
+    <string name="home_daily_activity_title">Hoạt động hàng ngày (Phút)</string>
+    <string name="home_no_data">Chưa có dữ liệu</string>
+    <string name="home_retention_rate_title">Tỷ lệ ghi nhớ</string>
+    <string name="home_retention_rate_desc">Tỷ lệ nhớ đúng trong các buổi ôn tập gần đây</string>
+    <string name="home_retention_excellent">Tuyệt vời! Bạn đang nhớ tốt</string>
+    <string name="home_retention_good">Khá ổn, hãy ôn tập thêm</string>
+    <string name="home_retention_poor">Cần cố gắng ôn tập nhiều hơn</string>
+    <string name="home_level_estimation">Đánh giá trình độ</string>
+    <string name="home_level_beginner_desc">Bạn đang ở mức cơ bản. Hãy học đều đặn mỗi ngày!</string>
+    <string name="home_level_intermediate_desc">Bạn đã có nền tảng tốt. Tiếp tục phát triển!</string>
+    <string name="home_level_advanced_desc">Tuyệt vời! Bạn đang ở mức nâng cao.</string>
+    <string name="home_level_default_desc">Hãy bắt đầu hành trình học tập!</string>
+    <string name="home_study_history">Lịch sử học tập</string>
+    <string name="home_history_words_time">%1$d lượt ôn</string>
+    <string name="home_quiz_score">✓ %1$d/5</string>
+    <string name="home_beginner">Beginner</string>
+    <string name="home_intermediate">Intermediate</string>
+    <string name="home_advanced">Advanced</string>
+
+    <!-- Auth error messages -->
+    <string name="auth_error_empty_email_password">Vui lòng nhập đầy đủ Email và Mật khẩu!</string>
+    <string name="auth_error_invalid_email">Email không đúng định dạng!</string>
+    <string name="auth_error_empty_name_email_password">Vui lòng nhập đầy đủ Tên, Email và Mật khẩu!</string>
+    <string name="auth_error_password_too_short">Mật khẩu phải dài từ 6 ký tự trở lên!</string>
+    <string name="auth_google_login_success">Google Login thành công! Xin chào %1$s</string>
+    <string name="auth_update_success">Cập nhật thành công!</string>
+    <string name="auth_update_error">Lỗi cập nhật: %1$s</string>
+
+    <!-- Auth -->
+    <string name="login_title">ĐĂNG NHẬP MINLISH</string>
+    <string name="login_or">Hoặc</string>
+    <string name="login_google">Tiếp tục với Google</string>
+    <string name="register_title">ĐĂNG KÝ TÀI KHOẢN</string>
+    <string name="register_goal_daily">Giao tiếp hàng ngày</string>
+    <string name="register_goal_ielts">Luyện thi IELTS/TOEIC</string>
+    <string name="register_goal_work">Tiếng Anh công việc</string>
+    <string name="register_goal_study_abroad">Du học</string>
+    <string name="register_goal_hobby">Sở thích cá nhân</string>
+
+    <!-- Vocabulary -->
+    <string name="word_list_title">Danh sách từ vựng</string>
+    <string name="word_list_subtitle">Danh sách từ trong bộ từ đã chọn.</string>
+    <string name="word_list_add">Thêm</string>
+    <string name="word_list_flashcard">Flashcard</string>
+    <string name="word_list_dictation">Nghe chính tả</string>
+    <string name="word_list_listen">Nghe</string>
+    <string name="word_list_delete">Xóa</string>
+    <string name="word_list_learned">✓ Đã học</string>
+    <string name="word_list_example_prefix">Ví dụ: </string>
+    <string name="word_set_list_delete_title">Xóa bộ từ</string>
+    <string name="word_set_list_delete_confirm">Thao tác này sẽ xóa bộ từ và toàn bộ từ vựng bên trong. Bạn có chắc không?</string>
+    <string name="word_set_list_quiz">Quiz</string>
+    <string name="word_set_list_add">Thêm</string>
+    <string name="word_set_list_edit">Sửa</string>
+    <string name="word_set_list_delete">Xóa</string>
+    <string name="add_edit_word_title_add">Thêm từ mới</string>
+    <string name="add_edit_word_title_edit">Chỉnh sửa từ</string>
+    <string name="add_edit_word_subtitle">Nhập thông tin từ vựng mới.</string>
+    <string name="add_edit_word_saving">Đang lưu…</string>
+    <string name="add_edit_word_save">Lưu</string>
+    <string name="word_quiz_title">Quiz từ vựng</string>
+
+    <!-- Grammar -->
+    <string name="grammar_list_title">BÀI HỌC NGỮ PHÁP</string>
+    <string name="grammar_list_add">Thêm bài học mới</string>
+    <string name="grammar_detail_structure">Cấu trúc / Công thức</string>
+    <string name="grammar_detail_explanation">Giải thích chi tiết</string>
+    <string name="grammar_detail_examples">Ví dụ minh họa</string>
+    <string name="grammar_detail_common_errors">Lỗi sai thường gặp</string>
+    <string name="grammar_detail_level">Trình độ</string>
+    <string name="grammar_detail_take_quiz">Làm bài Trắc nghiệm</string>
+    <string name="grammar_add_edit_title_add">THÊM BÀI HỌC MỚI</string>
+    <string name="grammar_add_edit_title_edit">CHỈNH SỬA BÀI HỌC</string>
+    <string name="grammar_add_edit_confirm_exit_title">Xác nhận thoát</string>
+    <string name="grammar_add_edit_confirm_exit_body">Bạn đang nhập liệu dở. Nếu thoát, dữ liệu sẽ bị mất.</string>
+    <string name="grammar_add_edit_exit">Thoát</string>
+    <string name="grammar_add_edit_stay">Ở lại</string>
+    <string name="grammar_add_edit_saving">Đang lưu…</string>
+    <string name="grammar_quiz_title">BÀI TẬP TRẮC NGHIỆM</string>
+    <string name="grammar_quiz_question_counter">Câu %1$d / %2$d</string>
+    <string name="grammar_quiz_submit">NỘP BÀI</string>
+    <string name="grammar_quiz_explanation">Giải thích: </string>
+    <string name="grammar_quiz_retry">Thử lại</string>
+    <string name="grammar_quiz_reload">Tải lại</string>
+    <string name="grammar_quiz_no_data">Không có dữ liệu câu hỏi.</string>
+
+    <!-- Learning (Flashcard + Dictation) -->
+    <string name="learning_loading">Đang tải dữ liệu…</string>
+    <string name="learning_no_words">Bộ từ này hiện chưa có từ vựng nào.</string>
+    <string name="learning_load_error">Không thể tải dữ liệu: </string>
+    <string name="learning_choose_set">Chọn bộ từ để bắt đầu</string>
+    <string name="learning_change_set">Đổi bộ từ</string>
+    <string name="learning_choose_another_set">Chọn bộ từ khác</string>
+    <string name="learning_meaning_prefix">Nghĩa: </string>
+    <string name="learning_enter_english">Nhập từ tiếng Anh</string>
+    <string name="learning_check">Kiểm tra</string>
+    <string name="learning_correct">Đúng rồi!</string>
+    <string name="learning_wrong">Chưa đúng, thử lại</string>
+    <string name="learning_session_score">Điểm phiên: </string>
+    <string name="flashcard_cd_back">Quay lại</string>
+    <string name="flashcard_cd_home">Trang chủ</string>
+    <string name="flashcard_cd_change_set">Đổi bộ từ</string>
+    <string name="flashcard_cd_prev">Từ trước</string>
+    <string name="flashcard_cd_listen">Nghe</string>
+    <string name="flashcard_cd_next">Từ tiếp</string>
+
+    <!-- Progress -->
+    <string name="progress_title">TIẾN ĐỘ HỌC TẬP</string>
+    <string name="progress_study_time_chart">Thời gian học (Phút)</string>
+    <string name="progress_day_details">Chi tiết các ngày</string>
+    <string name="progress_detail_title">Chi tiết tiến độ</string>
+    <string name="progress_no_data">Chưa có dữ liệu</string>
+    <string name="progress_detail_learned_words">Tổng từ đã học</string>
+    <string name="progress_detail_quiz_score">Điểm Quiz</string>
+    <string name="progress_detail_study_time">Thời gian học</string>
+    <string name="progress_detail_not_found">Không tìm thấy dữ liệu cho ngày này.</string>
+
+    <!-- Me screens -->
+    <string name="profile_title">TRANG CÁ NHÂN</string>
+    <string name="about_title">Về ứng dụng</string>
+    <string name="notif_settings_title">Cài đặt thông báo</string>
+    <string name="notif_daily_reminder">Nhắc nhở hàng ngày</string>
+    <string name="notif_daily_subtitle">Nhắc nhở học hàng ngày</string>
+    <string name="notif_time_label">Giờ nhắc nhở (HH:mm)</string>
+    <string name="notif_study_notifications">Thông báo học tập</string>
+    <string name="notif_grammar_quiz">Nhắc nhở quiz ngữ pháp</string>
+    <string name="notif_progress_update">Cập nhật tiến độ</string>
+
+    <!-- Common shared -->
+    <string name="common_cancel">Hủy</string>
+
+    <!-- Login screen -->
+    <string name="login_tagline">Học tiếng Anh mỗi ngày</string>
+    <string name="login_subtitle">Đăng nhập</string>
+    <string name="login_email_label">Email</string>
+    <string name="login_password_label">Mật khẩu</string>
+    <string name="login_hide_password">Ẩn mật khẩu</string>
+    <string name="login_show_password">Hiện mật khẩu</string>
+    <string name="login_forgot_password">Quên mật khẩu?</string>
+    <string name="login_processing">Đang xử lý...</string>
+    <string name="login_google_logo_cd">Google logo</string>
+    <string name="login_no_account">Chưa có tài khoản? Đăng ký ngay</string>
+
+    <!-- Register screen -->
+    <string name="register_name_label">Họ và Tên</string>
+    <string name="register_goal_label">Mục tiêu học</string>
+    <string name="register_level_label">Trình độ hiện tại</string>
+    <string name="register_sending_code">Đang gửi mã...</string>
+    <string name="register_send_code">Gửi mã xác thực</string>
+    <string name="register_has_account">Đã có tài khoản? Đăng nhập</string>
+
+    <!-- Forgot password / OTP -->
+    <string name="forgot_password_topbar_title">Quên mật khẩu</string>
+    <string name="forgot_password_heading">Quên mật khẩu?</string>
+    <string name="forgot_password_instruction">Nhập địa chỉ email đã đăng ký.\nChúng tôi sẽ gửi mã OTP để đặt lại mật khẩu.</string>
+    <string name="forgot_sending">Đang gửi...</string>
+    <string name="forgot_send_otp">Gửi mã OTP</string>
+    <string name="otp_verify_title_register">Xác thực Email</string>
+    <string name="otp_verify_title_reset">Đặt lại mật khẩu</string>
+    <string name="otp_otp_label">Mã OTP</string>
+    <string name="otp_new_password_label">Mật khẩu mới</string>
+    <string name="otp_confirm_password_label">Xác nhận mật khẩu</string>
+    <string name="otp_sent_message">Chúng tôi đã gửi mã OTP 6 chữ số đến\n%1$s</string>
+    <string name="otp_processing">Đang xử lý...</string>
+    <string name="otp_complete_register">Hoàn tất đăng ký</string>
+    <string name="otp_reset_password">Đặt lại mật khẩu</string>
+    <string name="otp_passwords_dont_match">Mật khẩu xác nhận không khớp</string>
+
+    <!-- Me / Settings -->
+    <string name="me_dark_mode">Chế độ tối</string>
+    <string name="me_enabled">Đang bật</string>
+    <string name="me_disabled">Đang tắt</string>
+    <string name="me_server_settings_title">Cài đặt Server</string>
+    <string name="me_server_settings_subtitle">Cấu hình URL máy chủ</string>
+    <string name="me_avatar_cd">Avatar</string>
+
+    <!-- Profile -->
+    <string name="profile_name_label">Họ và Tên</string>
+    <string name="profile_goal_label">Mục tiêu học</string>
+    <string name="profile_level_label">Trình độ</string>
+    <string name="profile_change_avatar_hint">Nhấn vào ảnh để thay đổi</string>
+    <string name="profile_pick_image_cd">Chọn ảnh</string>
+
+    <!-- Server settings -->
+    <string name="server_settings_base_url_label">Base URL</string>
+    <string name="server_settings_url_empty_error">URL không được để trống</string>
+    <string name="server_settings_url_invalid_error">URL phải bắt đầu bằng http:// hoặc https://</string>
+    <string name="server_settings_saved">Đã lưu. Khởi động lại app để áp dụng.</string>
+    <string name="server_settings_save_button">Lưu</string>
+    <string name="server_settings_description">Mặc định (emulator): %1$s\n\nKhi demo trên thiết bị thật, nhập IP WiFi của máy chủ, ví dụ:\nhttp://192.168.1.xxx:3000/api/</string>
+
+    <!-- Flashcard -->
+    <string name="flashcard_recall_question">Bạn nhớ từ này như thế nào?</string>
+    <string name="flashcard_difficulty_hard">Khó</string>
+    <string name="flashcard_difficulty_ok">Được</string>
+    <string name="flashcard_difficulty_easy">Dễ</string>
+
+    <!-- Add/Edit Word field labels -->
+    <string name="add_edit_word_word_label">Word</string>
+    <string name="add_edit_word_meaning_label">Meaning</string>
+    <string name="add_edit_word_example_label">Example</string>
+
+    <!-- Word Set List -->
+    <string name="word_set_list_title">Word Sets</string>
+    <string name="word_set_list_progress">%1$d/%2$d từ đã học</string>
+
+    <!-- Add/Edit Grammar field labels -->
+    <string name="grammar_add_edit_title_label">Tên bài học (VD: Hiện tại đơn)</string>
+    <string name="grammar_add_edit_category_label">Thể loại (VD: Thì động từ)</string>
+    <string name="grammar_add_edit_formula_label">Công thức (VD: S + V + O)</string>
+    <string name="grammar_add_edit_explanation_label">Giải thích chi tiết</string>
+    <string name="grammar_add_edit_example_label">Ví dụ minh họa</string>
+    <string name="grammar_add_edit_mistakes_label">Lỗi sai hay gặp (Tùy chọn)</string>
+    <string name="grammar_add_edit_save_button">Lưu bài học</string>
+    <string name="grammar_add_edit_update_button">Cập nhật bài học</string>
+
+    <!-- Grammar Quiz -->
+    <string name="grammar_quiz_score">Điểm: %1$d/%2$d</string>
+    <string name="grammar_quiz_question_prefix">Hỏi: </string>
+
+    <!-- Word Quiz -->
+    <string name="word_quiz_score">Điểm: %1$d/%2$d</string>
+    <string name="word_quiz_question_prefix">Hỏi: </string>
+    <string name="word_quiz_answer_prefix">Đáp án: </string>
+    <string name="word_quiz_actual_count">Đã tạo %1$d câu (tối đa từ bộ từ được chọn).</string>
+
+    <!-- Word Quiz Setup -->
+    <string name="word_quiz_setup_title">Tạo bài kiểm tra</string>
+    <string name="word_quiz_setup_description">Chọn nhiều word set và số câu hỏi từ 5 đến 100.</string>
+    <string name="word_quiz_setup_question_count">Số câu: %1$d</string>
+    <string name="word_quiz_setup_word_sets_label">Word sets</string>
+    <string name="word_quiz_setup_loading">Đang tải dữ liệu...</string>
+    <string name="word_quiz_setup_load_error">Không thể tải dữ liệu: %1$s</string>
+    <string name="word_quiz_setup_start">Bắt đầu</string>
+    <string name="word_quiz_setup_select_hint">Hãy chọn ít nhất 1 word set.</string>
+
+    <!-- Add/Edit Word Set -->
+    <string name="add_word_set_title">New Word Set</string>
+    <string name="add_word_set_description">Tạo bộ từ mới để bắt đầu học.</string>
+    <string name="edit_word_set_title">Edit Word Set</string>
+    <string name="edit_word_set_description">Cập nhật thông tin bộ từ vựng.</string>
+    <string name="add_word_set_name_label">Name</string>
+    <string name="add_word_set_description_label">Description</string>
+    <string name="add_word_set_tags_label">Tags (cách nhau bằng dấu phẩy)</string>
+    <string name="add_word_set_saving">Saving...</string>
+    <string name="add_word_set_save">Save</string>
+    <string name="add_word_set_save_error">Không thể lưu: %1$s</string>
+
+    <!-- About -->
+    <string name="about_app_full_name">Minlish - Học tiếng Anh</string>
+    <string name="about_version">Phiên bản 1.0.0</string>
+    <string name="about_description">Minlish là ứng dụng hỗ trợ học tiếng Anh thông minh, giúp bạn cải thiện từ vựng, ngữ pháp và theo dõi tiến độ mỗi ngày. Chúng tôi mong muốn mang đến trải nghiệm học tập tốt nhất cho bạn.</string>
+    <string name="about_copyright">© 2026 Minlish Team.\nAll rights reserved.</string>
+    <string name="about_logo_cd">App Logo</string>
+
+    <!-- Progress Detail -->
+    <string name="progress_detail_perfect">Xuất sắc! Bạn đã nhớ hết từ vựng.</string>
+    <string name="progress_detail_keep_going">Cố gắng ôn tập thêm nhé!</string>
+    <string name="progress_detail_vocabulary_title">Từ vựng</string>
+    <string name="progress_detail_vocabulary_subtitle">lượt ôn</string>
+    <string name="progress_detail_grammar_title">Ngữ pháp</string>
+    <string name="progress_detail_grammar_subtitle">bài tập</string>
+    <string name="progress_detail_minutes_format">%1$d Phút</string>
+</resources>

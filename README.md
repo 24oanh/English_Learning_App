@@ -1,10 +1,6 @@
 # 📚 Minlish - Smart English Learning Application
 
 <p align="center">
-  <img src="EL/app/res/drawable/ic_google.xml" width="100" alt="Minlish Logo"/>
-</p>
-
-<p align="center">
   <b>Minlish</b> là ứng dụng hỗ trợ học tiếng Anh thông minh trên hệ điều hành Android, tích hợp thuật toán lặp lại ngắt quãng <b>(Spaced Repetition System - SM-2)</b>, giúp người học ghi nhớ từ vựng lâu hơn, luyện tập ngữ pháp và theo dõi tiến độ học tập trực quan.
 </p>
 

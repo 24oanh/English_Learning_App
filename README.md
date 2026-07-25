@@ -66,29 +66,51 @@
 ## 📂 Cấu Trúc Dự Án (Project Structure)
 
 ```text
-├── EL/
-│   ├── backend/                      # Node.js Express API Server
-│   │   ├── config/                   # Kết nối CSDL MySQL (db.js, schema.sql)
-│   │   ├── controllers/              # Xử lý logic nghiệp vụ
-│   │   │   ├── authController.js
-│   │   │   ├── grammarController.js
-│   │   │   ├── progressController.js
-│   │   │   ├── userController.js
-│   │   │   └── vocabularyController.js
-│   │   ├── data/                     # Dữ liệu mẫu (grammar-content.json, CSVs)
-│   │   ├── middleware/               # Middleware xác thực JWT (auth.js)
-│   │   ├── routes/                   # API Endpoints Route definition
-│   │   ├── scripts/                  # Script khởi tạo CSDL & seed dữ liệu
-│   │   │   ├── db-create.js
-│   │   │   ├── db-setup.js
-│   │   │   ├── seed.js
-│   │   │   └── seed-grammar.js
-│   │   ├── utils/                    # Email service & OTP Helper
-│   │   └── index.js / server.js
-│   │
-│   └── app/                          # Native Android Project
-│       └── res/
-│           ├── drawable/             # Vector icons (Google, Launchers,...)
-│           ├── values/               # Color, themes
-│           ├── values-en/            # Ngôn ngữ Tiếng Anh
-│           └── values-vi/            # Ngôn ngữ Tiếng Việt
+English_Learning_App
+├── android/
+│   └── app/
+│       └── src/
+│           ├── main/
+│           │   ├── AndroidManifest.xml
+│           │   ├── java/
+│           │   │   └── com/example/english_learning_app/
+│           │   │       ├── data/
+│           │   │       │   ├── local/
+│           │   │       │   │   ├── dao/
+│           │   │       │   │   ├── entity/
+│           │   │       │   ├── model/
+│           │   │       │   ├── remote/
+│           │   │       │   └── repository/
+│           │   │       ├── di/
+│           │   │       ├── navigation/
+│           │   │       ├── ui/
+│           │   │       │   ├── auth/
+│           │   │       │   ├── grammar/
+│           │   │       │   ├── home/
+│           │   │       │   ├── learning/
+│           │   │       │   ├── me/
+│           │   │       │   ├── progress/
+│           │   │       │   ├── settings/
+│           │   │       │   ├── theme/
+│           │   │       │   ├── utils/
+│           │   │       │   └── vocabulary/
+│           │   │       └── workers/
+│           │   └── res/
+│           │       ├── drawable/
+│           │       ├── mipmap-*/
+│           │       ├── values/
+│           │       ├── values-en/
+│           │       ├── values-vi/
+│           │       └── xml/
+│           ├── androidTest/
+│           └── test/
+│
+└── backend/
+    ├── app.js
+    ├── config/
+    ├── controllers/
+    ├── routes/
+    ├── middleware/
+    ├── data/
+    ├── scripts/
+    └── utils/
